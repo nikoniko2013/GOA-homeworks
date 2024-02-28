@@ -1,0 +1,232 @@
+
+from turtle import *
+bgcolor("green")
+
+
+
+
+penup()
+goto(-500, -100)
+pendown()
+color("skyblue")
+begin_fill()
+penup()
+goto(-320, 230)
+pendown()
+color("yellow")
+begin_fill()
+circle(60)
+end_fill()
+
+penup()
+goto(0, 0)
+pendown()
+
+
+#we want to paint a house
+speed(30)
+width(7)
+color("purple")
+forward(200)
+ 
+left(90)
+forward(200)
+left(90)
+forward(200)
+left(90)
+forward(200)
+left(90)
+#end of square
+ 
+#drawing a door
+forward(70)
+color("yellow")
+begin_fill()
+left(90)
+forward(120)       #height of the door
+right(90)
+forward(60)
+right(90)
+forward(120)
+end_fill()
+
+penup()
+goto(200, 200)
+pendown()
+color("red")
+begin_fill()
+
+right(150)
+
+forward(200)
+left(120)
+forward(200)
+end_fill()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+penup()                         
+
+goto(-50,0)
+
+pendown()
+
+
+right(60)
+
+from turtle import *
+#we want to paint a house
+speed(30)
+width(7)
+color("pink")
+forward(200)
+ 
+right(90)
+forward(200)
+right(90)
+forward(200)
+right(90)
+forward(200)
+right(90)
+#end of square
+ 
+#drawing a door
+forward(70)
+color("purple")
+begin_fill()
+right(90)
+forward(120)       #height of the door
+left(90)
+forward(60)
+left(90)
+forward(120)
+end_fill()
+
+penup()           #we want to paint a roof
+goto(-50, 200)
+pendown()
+color("blue")
+begin_fill()
+
+right(150)
+forward(200)      #height of the roof
+left(120)
+forward(200)
+end_fill()
+
+
+
+penup()
+goto(450, 0)
+pendown()
+
+right(60)
+
+from turtle import *
+#we want to paint a house
+speed(30)
+width(7)
+color("black")
+forward(200)
+ 
+right(90)
+forward(200)
+right(90)
+forward(200)
+right(90)
+forward(200)
+right(90)
+#end of square
+ 
+#drawing a door
+forward(70)
+color("brown")
+begin_fill()
+right(90)
+forward(120)       #height of the door
+left(90)
+forward(60)
+left(90)
+forward(120)
+end_fill()
+
+penup()
+goto(250, 200)
+pendown()
+color("purple")
+begin_fill()
+
+left(150)
+
+forward(200)
+right(120)
+forward(200)
+end_fill()
+
+
+penup()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+exitonclick()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
